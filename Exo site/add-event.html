@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventEarth</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Page d'accueil</a></li>
+                <li><a href="events.html">Les évènements</a></li>
+                <li><a href="add-event.html">Ajouter un évènement</a></li>
+                <li><a href="contact-us.html">Nous contacter</a></li>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>Ajoutez votre évènement:</h1>
+            <br><br><br>
+            <form action="/events.html" method="post">
+                <label for="title">Titre de l'évènement:</label>
+                <input type="text" id="title" name="title">
+                <br>
+                <label for="describe">Description de l'évènement:</label>
+                <input type="text" id="describe" name="describe">
+                <br>
+                <label for="picture">Photo de l'évènement:</label>
+                <input type="file" name="picture" id="picture">
+                <br>
+                <label for="price">Prix de l'évènement</label>
+                <input type="number" name="price" id="price">
+                <br>
+                <input type="submit" value="Envoyer">
+            </form>
+        </article>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/V_for_Vendetta_(film)">Mentions légales</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Sin_City(film)">Conditions générales d'utilisation (CGU)</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
